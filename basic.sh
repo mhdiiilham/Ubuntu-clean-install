@@ -1,10 +1,16 @@
 echo "Installing..."
 
+echo "=== Enabling universe repository  ==="
+sudo add-apt-repository universe
+
 echo "=== Running apt-get update ==="
 sudo apt-get update
 
 echo "=== Running apt update ==="
 sudo apt update
+
+echo "=== Installing GNOME Tweaks ==="
+sudo apt install gnome-tweak-tool -y
 
 echo "=== Installing snapd ==="
 sudo apt install snapd
