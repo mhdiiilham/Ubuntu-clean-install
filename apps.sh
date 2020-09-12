@@ -36,5 +36,8 @@ sudo snap install postman
 echo "=== Installing Beekeper (SQL Client ===)"
 sudo snap install beekeeper-studio
 
+echo "=== Installing Intellij IDEA Community ==="
+sudo snap install intellij-idea-community --classic
+
 echo "Installation completed!"
 echo "Have a nice day :)"
